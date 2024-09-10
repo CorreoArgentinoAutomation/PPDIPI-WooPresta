@@ -64,12 +64,12 @@ public class CheckOutPresta extends BasePage {
         click(btnContinuarUsrInvitado);
     }
     public void usuarioInvitadoDirecciones(){
-        click(campoDireccion);
-        writeText(campoDireccion, "Calle");
+         click(campoDireccion);
+        writeText(campoDireccion, "Soberania Nacional");
         click(campoCodigoPostal);
-        writeText(campoCodigoPostal, "C1427DWE");
+        writeText(campoCodigoPostal, "B6740FGD");
         click(campoCiudad);
-        writeText(campoCiudad, "CABA");
+        writeText(campoCiudad, "Chacabuco");
         click(seleccionBuenosAires);
 
         click(btnContinuarDirecciones);
@@ -114,7 +114,7 @@ public class CheckOutPresta extends BasePage {
     }
 
     public void validacionDePedido(){
-        compararTextoConMensajeEsperado(validacionDePedido, "Su pedido est· confirmado");
+        compararTextoConMensajeEsperado(validacionDePedido, "Su pedido est√° confirmado");
     }
 
     public String informacionEnvio(){
